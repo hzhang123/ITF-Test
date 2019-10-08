@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [growing-marketing]" parallel="classes">
+  <listeners>
+    <listener class-name="per.hao.listener.DataSourceListener"/>
+    <listener class-name="per.hao.listener.TestFaildListener"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="growing-marketing测试(failed)" parallel="classes">
+    <classes>
+      <class name="per.hao.cases.marketing.automation.CampaignsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCampaignsCreate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- per.hao.cases.marketing.automation.CampaignsTest -->
+    </classes>
+  </test> <!-- growing-marketing测试(failed) -->
+</suite> <!-- Failed suite [growing-marketing] -->

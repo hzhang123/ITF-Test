@@ -1,0 +1,32 @@
+
+--------Request URL--------:
+http://k8s-qa-www.growingio.com/api/v1/projects/z98jGyZP/meta/marketing_push
+
+--------Request Header--------:
+[Authorization: , X-Client-Id: 06b3f5eb364f410eb7435a6940c4f431, Content-Type: application/json]
+
+--------Request Body--------:
+{
+        "cid": "c08994d7-c1c7-451f-b052-76da2e57372c",
+        "name": "ITF-自动化接口测试c08994d7-c1c7-451f-b052-76da2e57372c",
+        "packageName": "com.growingio.giodemo",
+        "audience": ["hzhang-小米", 
+"hzhang-华为", 
+"hzhang-apple"],
+        "notification": {
+                "title": "ITF-自动化接口128",
+                "alert": "收到一条新的留言，点击查看。",
+                "extras": {
+                        "key1": "value1",
+                        "key2": "value2"
+                },
+                "actionType": "openUrl",
+                "actionTarget": "com.growingio.giodemo.MainActivity",
+                "actionParameters": {}
+        },
+        "options": {
+                "apnsProduction": true  }
+}
+
+--------Cookies--------:
+[]

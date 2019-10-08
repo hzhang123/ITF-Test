@@ -13,13 +13,13 @@ import java.lang.reflect.Method;
 /**
  * 监听测试是否存在{@code DataSource.CLASS}注解:
  * 1. 如果存在@DataSource注解且@Test注解中未对dataProvider赋值
- *    则指定{@code BaseTester.CLASS}中提供的getData数据提供者方法
+ * 则指定{@code BaseTester.CLASS}中提供的getData数据提供者方法
  * 2. 如果不存在@DataSource注解或@Test注解中已经对dataProvider赋值
- *    则不修改dataProvider
- *
+ * 则不修改dataProvider
+ * <p>
  * 测试方法@Test注解dataProviderClass如果值为Object.class则修改
  * 为BaseTest.class
- * */
+ */
 public class DataSourceListener implements IAnnotationTransformer {
 
     private static final Logger logger = LoggerFactory.getLogger(DataSourceListener.class);
@@ -30,8 +30,8 @@ public class DataSourceListener implements IAnnotationTransformer {
      * @param iTestAnnotation 提供对@Test注解操作的对象
      * @param aClass
      * @param constructor
-     * @param method 本次触发监听的测试方法
-     * */
+     * @param method          本次触发监听的测试方法
+     */
     @Override
     public void transform(ITestAnnotation iTestAnnotation, Class aClass, Constructor constructor, Method method) {
         // 测试为null
@@ -55,8 +55,8 @@ public class DataSourceListener implements IAnnotationTransformer {
      * 对@Test注解dataProvider数据提者判断修改的方法
      *
      * @param iTestAnnotation 提供对@Test注解操作的对象
-     * @param method 本次触发监听的测试方法
-     * */
+     * @param method          本次触发监听的测试方法
+     */
     private void modifyDataProvider(ITestAnnotation iTestAnnotation, Method method) {
 
         /** 如果存在@DataSource注解 */
@@ -68,9 +68,9 @@ public class DataSourceListener implements IAnnotationTransformer {
                 logger.debug("dataProvider已指定: {}", iTestAnnotation.getDataProvider());
             }
 
-        /* 未指定@DataSource注解却指定了dataProvider */
-        } else if ((! method.isAnnotationPresent(DataSource.class)) &&
-                ! "".equals(iTestAnnotation.getDataProvider())) {
+            /* 未指定@DataSource注解却指定了dataProvider */
+        } else if ((!method.isAnnotationPresent(DataSource.class)) &&
+                !"".equals(iTestAnnotation.getDataProvider())) {
             logger.error("未指定@DataSource注解却初始化了dataProvider");
         }
     }

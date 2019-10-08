@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.549 s <<< FAILURE! - in TestSuite
+testCampaignsCreate(per.hao.cases.marketing.automation.CampaignsTest)  Time elapsed: 0.108 s  <<< FAILURE!
+java.lang.AssertionError: 
+<html>
+<head><title>401 Authorization Required</title></head>
+<body bgcolor="white">
+<center><h1>401 Authorization Required</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+ [not contain] ITF-创建消息组4bf36e00-5e56-4a1b-8183-97523508cfb1 expected [true] but found [false]
+	at per.hao.cases.marketing.automation.CampaignsTest.testCampaignsCreate(CampaignsTest.java:53)
+

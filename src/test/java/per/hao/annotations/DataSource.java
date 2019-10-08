@@ -1,7 +1,5 @@
 package per.hao.annotations;
 
-import per.hao.utils.DataSourceType;
-
 import java.lang.annotation.*;
 
 /**

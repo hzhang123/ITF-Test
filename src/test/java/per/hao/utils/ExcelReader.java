@@ -40,9 +40,9 @@ public class ExcelReader implements Iterator<Object[]> {
     /**
      * 根据sheetName初始化
      *
-     * @param filePath excel文件路径
+     * @param filePath  excel文件路径
      * @param sheetName 读取的sheet名称
-     * */
+     */
     public static ExcelReader getDataBySheetName(String filePath, String sheetName) {
         return new ExcelReader(filePath, sheetName, "", "", 1);
     }
@@ -50,10 +50,10 @@ public class ExcelReader implements Iterator<Object[]> {
     /**
      * 根据定位器初始化
      *
-     * @param filePath excel文件路径
+     * @param filePath  excel文件路径
      * @param sheetName 读取的sheet名称
-     * @param locate 定位器名称
-     * */
+     * @param locate    定位器名称
+     */
     public static ExcelReader getDataByLocate(String filePath, String sheetName, String locate) {
         return new ExcelReader(filePath, sheetName, locate, "", 2);
     }
@@ -62,8 +62,8 @@ public class ExcelReader implements Iterator<Object[]> {
      * 根据名称初始化
      *
      * @param filePath excel文件路径
-     * @param Name 名称
-     * */
+     * @param Name     名称
+     */
     public static ExcelReader getDataByName(String filePath, String Name) {
         return new ExcelReader(filePath, "", "", Name, 3);
     }
@@ -72,17 +72,17 @@ public class ExcelReader implements Iterator<Object[]> {
     /**
      * 私有构造方法
      *
-     * @param filePath excel文件路径
+     * @param filePath  excel文件路径
      * @param sheetName 读取的sheet名称
-     * @param locate 定位器名称
-     * @param name 名称
-     * @param type 初始化的类型
-     *
-     * 根据type的值来确定初始化的方法
-     *             1 ： 根据sheetName初始化， filePath、sheetName不为空
-     *             2 ： 根据定位器初始化， filePath、sheetName、 locate不为空
-     *             3 ： 根据名称初始化， name不为空
-     * */
+     * @param locate    定位器名称
+     * @param name      名称
+     * @param type      初始化的类型
+     *                  <p>
+     *                  根据type的值来确定初始化的方法
+     *                  1 ： 根据sheetName初始化， filePath、sheetName不为空
+     *                  2 ： 根据定位器初始化， filePath、sheetName、 locate不为空
+     *                  3 ： 根据名称初始化， name不为空
+     */
     private ExcelReader(String filePath, String sheetName, String locate, String name, int type) {
         initWorkBook(filePath);
         if (type == 1) {// 根据sheetName初始化
@@ -103,11 +103,11 @@ public class ExcelReader implements Iterator<Object[]> {
     /**
      * 根据名称初始化当前读取区域定位信息
      *
-     * @param filePath excel路径
+     * @param filePath    excel路径
      * @param designation 名称
-     *
-     * 读取到的名称需要是工作簿作用范围，匹配定位信息初始化curColNum、 curRowNum、maxColNum、maxRowNum
-     * */
+     *                    <p>
+     *                    读取到的名称需要是工作簿作用范围，匹配定位信息初始化curColNum、 curRowNum、maxColNum、maxRowNum
+     */
     private void initByName(String filePath, String designation) {
         Name name = workbook.getName(designation);
         if (name != null) {
@@ -138,9 +138,8 @@ public class ExcelReader implements Iterator<Object[]> {
      * 从0开始，A -> 0, AA -> 26, BA -> 53以此类推, 也就是特殊的26进制
      *
      * @param letterCoordinate 列
-     *
      * @return int
-     * */
+     */
     private int letterToDec(String letterCoordinate) {
         char[] cs = letterCoordinate.toCharArray();
         int decIndex = 0, i = 0;
@@ -154,7 +153,7 @@ public class ExcelReader implements Iterator<Object[]> {
 
     /**
      * 初始化列名
-     * */
+     */
     private void ininColumnName() {
         Row colNameRow = sheet.getRow(curRowNum);
 
@@ -168,7 +167,7 @@ public class ExcelReader implements Iterator<Object[]> {
                 break;
             }
         }
-        curRowNum ++;
+        curRowNum++;
     }
 
 
@@ -176,7 +175,7 @@ public class ExcelReader implements Iterator<Object[]> {
      * 根据定位器初始化当前行
      *
      * @param locate 定位器
-     * */
+     */
     private void registerLocate(String locate) {
         /* 至少存在1列 */
         if (maxColNum >= 1) {
@@ -185,7 +184,9 @@ public class ExcelReader implements Iterator<Object[]> {
             for (int i = 0; i < sheet.getLastRowNum(); i++) {
                 Row row = sheet.getRow(i);
 
-                if (row == null) { continue; }
+                if (row == null) {
+                    continue;
+                }
 
                 Cell cell = row.getCell(0);
 
@@ -207,8 +208,7 @@ public class ExcelReader implements Iterator<Object[]> {
 
     /**
      * 初始化部分变量
-     *
-     * */
+     */
     private void initParam() {
         maxRowNum = sheet.getLastRowNum() + 1;
         maxColNum = sheet.getLastRowNum();
@@ -219,7 +219,7 @@ public class ExcelReader implements Iterator<Object[]> {
      * 根据Sheet名称获取Sheet
      *
      * @param sheetName sheet名称
-     * */
+     */
     private void initSheet(String filePath, String sheetName) {
         /* 获取WorkBook 中的sheet */
         if (workbook != null) {
@@ -240,19 +240,19 @@ public class ExcelReader implements Iterator<Object[]> {
      * 根据后缀判断版本获取excel对象
      *
      * @param filePath 文件路径
-     * */
+     */
     private void initWorkBook(String filePath) {
         try {
             in = new BufferedInputStream(new FileInputStream(filePath));
-        /* 2003 Excel */
-        if (filePath.endsWith(".xls")) {
-            workbook = new HSSFWorkbook(in);
-        /* 2007 Excel */
-        } else if (filePath.endsWith(".xlsx")) {
-            workbook = new XSSFWorkbook(in);
-        } else {
-            log.error("File is not Excel File: {}", filePath);
-        }
+            /* 2003 Excel */
+            if (filePath.endsWith(".xls")) {
+                workbook = new HSSFWorkbook(in);
+                /* 2007 Excel */
+            } else if (filePath.endsWith(".xlsx")) {
+                workbook = new XSSFWorkbook(in);
+            } else {
+                log.error("File is not Excel File: {}", filePath);
+            }
         } catch (FileNotFoundException e) {
             log.error("File not found: ", e);
         } catch (IOException e) {
@@ -266,7 +266,7 @@ public class ExcelReader implements Iterator<Object[]> {
 
     /**
      * 判断是否为空行
-     * */
+     */
     private boolean judgeblankRow(Row row) {
         for (int i = 0; i < row.getLastCellNum(); i++) {
             Cell cell = row.getCell(i);
@@ -280,7 +280,7 @@ public class ExcelReader implements Iterator<Object[]> {
 
     /**
      * 关闭资源
-     * */
+     */
     private void close() {
         if (in != null) {
             try {
@@ -293,10 +293,10 @@ public class ExcelReader implements Iterator<Object[]> {
 
     /**
      * 判断是否存在下一行
-     *
+     * <p>
      * 如果下一行为空行 @return true
      * 如果下一行为非空行 @return false
-     * */
+     */
     @Override
     public boolean hasNext() {
         if (curRowNum < maxRowNum) {
@@ -313,7 +313,7 @@ public class ExcelReader implements Iterator<Object[]> {
      * 获取下一行数据
      *
      * @return Object[]数组对象
-     * */
+     */
     @Override
     public Object[] next() {
         Map<String, String> curRowData = new HashMap<>();
@@ -325,16 +325,15 @@ public class ExcelReader implements Iterator<Object[]> {
             curRowData.put(colNames.get(i), getCellContents(cell));
         }
 
-        readRowNum ++;
-        curRowNum ++;
+        readRowNum++;
+        curRowNum++;
 
-        return new Object[] { curRowData };
+        return new Object[]{curRowData};
     }
 
     /**
      * 以String类型返回值
-     *
-     * */
+     */
     private String getCellContents(Cell cell) {
         cell.setCellType(CellType.STRING);
         return cell.getStringCellValue();

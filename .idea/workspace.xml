@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9520708c-48bd-45ed-bdcc-13646bd6e833" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ITF_Test_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/InterfaceTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/cases/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/cases/growing/marketing/MarketingPushTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/cases/marketing/automation/CampaignsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/cases/route.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/conf/ProductConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/conf/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/conf/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/listener/HttpSnapShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/builder/HCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/SSLs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/util/OCR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/util/OldOCR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/util/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/common/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/evictor/NIdleConnectionEvictor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/exception/HttpProcessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/ProductConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/ProjectConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/ServerConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.10.0/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.10.0/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-commandline-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-generator-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-plugin-api-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure1-model-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-api-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-jackson-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-pojo-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-text-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-0.34.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-util-0.34.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/freemarker-2.3.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpclient-4.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpcore-4.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-xml-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-yaml-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-module-jaxb-annotations-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-utils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jcommander-1.72.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-http-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-io-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-server-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-util-9.4.11.v20180605.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/opencsv-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/properties-2.0.RC5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/snakeyaml-1.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/tika-core-1.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/jira-plugin-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/allure-jira-commons-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/converter-jackson-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okhttp-3.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okio-1.14.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/retrofit-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/junit-xml-plugin-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/trx-plugin-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/xctest-plugin-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/allure-jira-commons-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/converter-jackson-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okhttp-3.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okio-1.14.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/retrofit-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/xray-plugin-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITF-Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/BaseTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/BaseTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/annotations/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/annotations/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/annotations/LocatorSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/beans/LocatorInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/beans/PageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/cases/BaiDuExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/cases/test/ExcelReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/cases/test/ExcelReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/cases/test/LocatorUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/cases/test/WebDriverUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/cases/zendao/login/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/listener/DataSourceListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/listener/DataSourceListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/listener/TestFaildListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/listener/TestFaildListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/utils/DataSourceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/annotations/DataSourceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/per/hao/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/utils/LocatorUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/per/hao/utils/WebDriverUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/param.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/zendao.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/locator/locator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/locator/zendao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng/growing-marketing.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SeleniumDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/InterfaceTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="244" column="44" selection-start-line="244" selection-start-column="44" selection-end-line="244" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/growing/marketing/MarketingPushTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng/growing-marketing.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/marketing/automation/CampaignsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="54" column="80" lean-forward="true" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/test/ExcelReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/utils/Functions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="97" column="23" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>method</find>
+      <find>RequestConfig</find>
+      <find>org.apache.maven.plugins</find>
+      <find>HttpHeader</find>
+      <find>growing-marketing测试-1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java</dir>
+      <dir>$PROJECT_DIR$/out/log</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/TestClass1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/marketing/automation/CampaignsCreateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ServerConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/InterfaceTester1.java" />
+        <option value="$PROJECT_DIR$/out/log/interface.log" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/util/OldOCR.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/HttpCookies.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/HttpMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/HttpResult.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/SSLs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/evictor/NIdleConnectionEvictor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/exception/HttpProcessException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/listener/DataSourceListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/LocatorUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/HttpConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/common/HttpHeader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/growing/marketing/route.md" />
+        <option value="$PROJECT_DIR$/src/test/resources/ProductConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/BaseTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/annotations/DataSourceType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/test/ExcelReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/httpclientutil/builder/HCB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/conf/ProductConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/HashId.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/conf/ProjectConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/Functions.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/listener/TestFaildMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/listener/TestFaildListener.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/conf/ServerConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/conf/ServerConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpHeader.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/growing/marketing/CampaignsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng/test.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/listener/HttpSnapShot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/growing/marketing/MarketingPushTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/InterfaceTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/common/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/route.md" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng/growing-marketing.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/conf/ProjectConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/per/hao/cases/marketing/automation/CampaignsTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itf-project-hzhang" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itf-project-hzhang" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="itf-project-hzhang" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2447" />
+    <option name="y" value="-170" />
+    <option name="width" value="2085" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SeleniumDemo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="SeleniumDemo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hao" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hao" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+              <item name="marketing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hao" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hao" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITF-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITF-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/growingio/JavaProject/SeleniumDemo/src/test/java/per/hao/httpclientutil/HttpClientUtil.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570526459953" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/conf" />
+      <recent name="$PROJECT_DIR$/src/test/java/per/hao/cases" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="per.hao.conf" />
+      <recent name="per.hao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/conf" />
+      <recent name="$PROJECT_DIR$/src/test/resources/testng" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/per/hao/conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml">
+    <configuration name="CampaignsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ITF-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.hao.cases.marketing.automation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.hao.cases.marketing.automation" />
+      <option name="MAIN_CLASS_NAME" value="per.hao.cases.marketing.automation.CampaignsTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ITF-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.hao.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.hao.cases" />
+      <option name="MAIN_CLASS_NAME" value="per.hao.cases.TestClass" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.GetDoClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ITF-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.hao.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.hao.cases" />
+      <option name="MAIN_CLASS_NAME" value="per.hao.cases.TestClass" />
+      <option name="METHOD_NAME" value="GetDoClass" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ITF-Test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng/growing-marketing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/test.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ITF-Test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng/test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/test.xml" />
+      <item itemvalue="TestNG.TestClass.GetDoClass" />
+      <item itemvalue="TestNG.CampaignsTest" />
+      <item itemvalue="TestNG./Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" />
+      <item itemvalue="TestNG.TestClass" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" />
+        <item itemvalue="TestNG./Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/test.xml" />
+        <item itemvalue="TestNG.TestClass" />
+        <item itemvalue="TestNG.TestClass.GetDoClass" />
+        <item itemvalue="TestNG.CampaignsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9520708c-48bd-45ed-bdcc-13646bd6e833" name="Default Changelist" comment="" />
+      <created>1567509595180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567509595180</updated>
+      <workItem from="1567509596293" duration="6966000" />
+      <workItem from="1567829465869" duration="6676000" />
+      <workItem from="1567867641312" duration="198000" />
+      <workItem from="1567996793049" duration="1691000" />
+      <workItem from="1568113844338" duration="3117000" />
+      <workItem from="1568169851659" duration="7760000" />
+      <workItem from="1568187403895" duration="24925000" />
+      <workItem from="1568281587722" duration="11000" />
+      <workItem from="1568599131618" duration="6819000" />
+      <workItem from="1568631580900" duration="503000" />
+      <workItem from="1568632107968" duration="598000" />
+      <workItem from="1568688259701" duration="641000" />
+      <workItem from="1568721536463" duration="8111000" />
+      <workItem from="1568961339627" duration="325000" />
+      <workItem from="1569042100269" duration="246000" />
+      <workItem from="1569222340382" duration="9848000" />
+      <workItem from="1569290877778" duration="2320000" />
+      <workItem from="1569396013289" duration="8919000" />
+      <workItem from="1569463557329" duration="6122000" />
+      <workItem from="1569482945801" duration="14152000" />
+      <workItem from="1569549291615" duration="10081000" />
+      <workItem from="1569563331966" duration="281000" />
+      <workItem from="1569563617700" duration="33000" />
+      <workItem from="1569563667457" duration="25747000" />
+      <workItem from="1569745918627" duration="535000" />
+      <workItem from="1569746456595" duration="7682000" />
+      <workItem from="1569808897846" duration="18946000" />
+      <workItem from="1570319780984" duration="246000" />
+      <workItem from="1570429709293" duration="162000" />
+      <workItem from="1570460972685" duration="67000" />
+      <workItem from="1570500220617" duration="7794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.09.30 at 16h 37m 50s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.09.30 at 16h 38m 05s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.09.30 at 16h 38m 52s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.09.30 at 16h 39m 59s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.09.30 at 16h 40m 24s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.10.08 at 10h 15m 24s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.10.08 at 10h 16m 06s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.10.08 at 13h 17m 03s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.10.08 at 13h 17m 31s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_growingio_JavaProject_ITF-Test_src_test_resources_testng_growing-marketing_xml - 2019.10.08 at 15h 57m 44s.xml">
+      <configuration name="/Users/growingio/JavaProject/ITF-Test/src/test/resources/testng/growing-marketing.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="181522000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2447" y="-170" width="2085" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6458599" visible="true" weight="0.20558003" />
+      <window_info id="Structure" order="1" sideWeight="0.35547575" side_tool="true" weight="0.2946824" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.35414013" side_tool="true" weight="0.2946824" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4988897" weight="0.24968153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988897" visible="true" weight="0.28280255" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.50738555" weight="0.29044586" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.71491873" weight="0.2522293" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49261448" side_tool="true" weight="0.37070063" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4985229" weight="0.32738853" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4996299" weight="0.3299363" />
+      <window_info anchor="bottom" id="Regex Tester" order="13" weight="0.32738853" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.19985196" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="LONG_EDGES_VISIBLE" value="true" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/per/hao/utils/HttpClientUtil.java</url>
+          <line>562</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/9b12a3ef-a781-47a9-9777-006bb8b0fd35-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/5ef5fd21-9b42-4dd9-b389-50b94d638abd-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/2de8ecca-3926-4fe4-a307-c64a0856d692-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/1dbd08ba-31db-4b2a-9378-da972c24009b-result.json" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.10.0/allure-java-commons-2.10.0-sources.jar!/io/qameta/allure/Attachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/f8eda79e-d624-4404-8d8a-10255de4d806-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/0a1da97f-af14-45c5-9b48-fc7d6439eac6-result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/387d1bad-53f4-4dfb-a027-41a019212b9d-result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-774">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.10.0/allure-java-commons-2.10.0-sources.jar!/io/qameta/allure/aspects/AttachmentsAspects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/listener/TestFaildMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/listener/DataSourceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="251" column="10" selection-start-line="251" selection-start-column="10" selection-end-line="251" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/HttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/execchain/HttpResponseProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/message/BasicHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="18" column="74" lean-forward="true" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/listener/TestFaildListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/conf/ProductConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/conf/ProjectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.10/owner-1.0.10-sources.jar!/org/aeonbits/owner/HotReloadLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.10/owner-1.0.10-sources.jar!/org/aeonbits/owner/PropertiesInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="254" column="16" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.10/owner-1.0.10-sources.jar!/org/aeonbits/owner/PropertiesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="370" column="24" lean-forward="true" selection-start-line="370" selection-start-column="24" selection-end-line="370" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/ServerConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/conf/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/BaseTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/listener/HttpSnapShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/log/interface.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-13570">
+          <caret line="486" column="55" selection-start-line="486" selection-start-column="55" selection-end-line="486" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/HttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/utils/common/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/utils/common/HttpHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8130">
+          <caret line="609" column="63" selection-start-line="609" selection-start-column="51" selection-end-line="609" selection-end-column="63" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7605">
+          <caret line="525" column="50" selection-start-line="525" selection-start-column="50" selection-end-line="525" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/route.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/InterfaceTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="244" column="44" selection-start-line="244" selection-start-column="44" selection-end-line="244" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/ProjectConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng/growing-marketing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/utils/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/test/ExcelReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/marketing/automation/CampaignsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="54" column="80" lean-forward="true" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/per/hao/cases/growing/marketing/MarketingPushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ITF-Test:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ITF-Test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="name=&quot;giots&quot;.*?content=&quot;(.*?)&quot;" />
+        <entry key="text" value="200   &lt;!DOCTYPE HTML&gt; &lt;html lang=&quot;zh-hans&quot;&gt;   &lt;head&gt;     &lt;meta charset=&quot;UTF-8&quot;&gt;     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;     &lt;meta name=&quot;giotk&quot; content=&quot;rdapIt80i7NvmT4vQJltZ4MFRaQrmga&quot;&gt;     &lt;meta name=&quot;giots&quot; content=&quot;86&quot;&gt;     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;             &lt;script type='text/javascript'&gt;window.BWEUM||||(BWEUM={});BWEUM.info = {&quot;stand&quot;:true,&quot;agentType&quot;:&quot;browser&quot;,&quot;agent&quot;:&quot;browsercollector.oneapm.com/static/js/bw-send-415.6.31.js&quot;,&quot;beaconUrl&quot;:&quot;browsercollector.oneapm.com/beacon&quot;,&quot;licenseKey&quot;:&quot;Uyu7i~mAiEeVUF23&quot;,&quot;applicationID&quot;:9981315};&lt;/script&gt; &lt;script type=&quot;text/javascript&quot;&gt;/*!OneAPM-v415.6.31 */!function(){window.BWEUM||||(window.BWEUM={});var a;window.BWEUM.require=a,window.apmFirstbyte=window.apmUserFirstbyte||||(new Date).getTime(),window.apmBICookieUser=&quot;AIPortal_Res_Account&quot;,window.apmBIUserFindLazy=&quot;AIPortal_Res_Account&quot;,window.apmBISessionTime=30,a=function b(c,d,e){function f(h,i){if(!d[h]){if(!c[h]){var j=&quot;function&quot;==typeof a&amp;&amp;a;if(!i&amp;&amp;j)return j(h,!0);if(g)return g(h,!0);var k=new Error(&quot;Cannot find module '&quot;+h+&quot;'&quot;);throw k.code=&quot;MODULE_NOT_FOUND&quot;,k}var l=d[h]={exports:{}};c[h][0].call(l.exports,function(a){var b=c[h][1][a];return f(b?b:a)},l,l.exports,b,c,d,e)}return d[h].exports}for(var g=&quot;function&quot;==typeof a&amp;&amp;a,h=0;h&lt;e.length;h++)f(e[h]);return f}({44:[function(a,b){function c(a,b){var c=[],e=&quot;&quot;,f=0;for(e in a)d.call(a,e)&amp;&amp;(c[f]=b(e,a[e]),f+=1);return c}var d=Object.prototype.hasOwnProperty;b.exports=c},{}],37:[function(a,b){function c(a){var b=&quot;&quot;;try{b=decodeURI(a.indexOf(&quot;%u&quot;)&gt;=0?unescape(a):a)}catch(c){b=a}return b}b.exports=c},{}],43:[function(a,b){function c(a,b,c){b||||(b=0),&quot;undefined&quot;==typeof c&amp;&amp;(c=a?a.length:0);for(var d=-1,e=c-b||||0,f=new Array(0&gt;e?0:e);++d&lt;e;)f[d]=a[b+d];return f}b.exports=c},{}],41:[function(a,b){function c(){var a=m.info=window.BWEUM.info;if(a&amp;&amp;a.agent&amp;&amp;a.licenseKey&amp;&amp;a.applicationID&amp;&amp;i&amp;&amp;i.body&amp;&amp;(m.proto=&quot;https&quot;===l.split(&quot;:&quot;)[0]||||a.sslForHttp?&quot;https://&quot;:&quot;http://&quot;,!window.BWEUM.haveLoad)){window.BWEUM.haveLoad=!0,g(&quot;mark&quot;,[&quot;onload&quot;,f()]);var b=i.createElement(&quot;script&quot;);b.src=0==a.agent.indexOf(&quot;//&quot;)?a.agent:m.proto+a.agent,b.src+=&quot;?v=415.6.31 &quot;,i.body.appendChild(b)}}function d(){&quot;complete&quot;===i.readyState&amp;&amp;e()}function e(){1!=o&amp;&amp;(g(&quot;mark&quot;,[&quot;domContent&quot;,f()]),o=!0)}function f(){return(new Date).getTime()}var g=a(&quot;handle&quot;),h=window,i=h.document,j=&quot;addEventListener&quot;,k=&quot;attachEvent&quot;,l=(&quot;&quot;+location).split(&quot;?&quot;)[0],m=b.exports={offset:window.apmFirstbyte||||f(),origin:l,features:{},infoself:{}};g(&quot;mark&quot;,[&quot;firstbyte&quot;,window.apmFirstbyte||||f()]),&quot;complete&quot;===document.readyState?(e(),c()):i[j]?(i[j](&quot;DOMContentLoaded&quot;,e,!1),h[j](&quot;load&quot;,c,!1)):(i[k](&quot;onreadystatechange&quot;,d),h[k](&quot;onload&quot;,c));var n=!1,o=!1;try{n=null==window.frameElement&amp;&amp;document.documentElement}catch(m){}n&amp;&amp;n.doScroll&amp;&amp;!function p(){if(!o){try{n.doScroll(&quot;left&quot;)}catch(a){return setTimeout(p,50)}e()}}()},{handle:40}],40:[function(a,b){function c(a,b,c){return d.listeners(a).length?d.emit(a,b,c):(e[a]||||(e[a]=[]),void e[a].push(b))}var d=a(&quot;ee&quot;).create(),e={};b.exports=c,c.ee=d,d.q=e},{ee:38}],38:[function(a,b){function c(a,b){var c=g(a,f);c&amp;&amp;1==c.ended&amp;&amp;(a[b]={},delete a[b])}function d(a){function b(b,d,h){a&amp;&amp;a(b,d,h),h||||(h={});var j=i(b),k=j.length,l={};try{l=g(h,f,e)}catch(m){}for(var n=0;k&gt;n;n++)j[n].apply(l,d);try{c(h,f,e)}catch(m){}return l}function h(a,b){k[a]=i(a).concat(b)}function i(a){return k[a]||||[]}function j(){return d(b)}var k={};return{on:h,emit:b,create:j,listeners:i,_events:k}}function e(){return{}}var f=&quot;bw@context&quot;,g=a(&quot;gos&quot;);b.exports=d()},{gos:39}],39:[function(a,b){function c(a,b,c){if(d.call(a,b))return a[b];var e=c();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(a,b,{value:e,writable:!0,enumerable:!1}),e}catch(f){}try{a[b]=e}catch(f){}return e}var d=Object.prototype.hasOwnProperty;b.exports=c},{}],36:[function(a,b){b.exports=function(a){var b,c;return b=&quot;ONEAPM_AI&quot;==a?window.oneapmBICookie|||||document.cookie:document.cookie,c=b.match(new RegExp(&quot;(^|| )&quot;+a+&quot;=([^;]*)(;|||d)&quot;)),null!=c?unescape(c[2]):null}},{}]},{},[]),a=function c(b,d,e){function f(h,i){if(!d[h]){if(!b[h]){var j=&quot;function&quot;==typeof a&amp;&amp;a;if(!i&amp;&amp;j)return j(h,!0);if(g)return g(h,!0);var k=new Error(&quot;Cannot find module '&quot;+h+&quot;'&quot;);throw k.code=&quot;MODULE_NOT_FOUND&quot;,k}var l=d[h]={exports:{}};b[h][0].call(l.exports,function(a){var c=b[h][1][a];return f(c?c:a)},l,l.exports,c,b,d,e)}return d[h].exports}for(var g=&quot;function&quot;==typeof a&amp;&amp;a,h=0;h&lt;e.length;h++)f(e[h]);return f}({1:[function(a){a(&quot;loader&quot;),a(&quot;errorload&quot;),a(&quot;xhrload&quot;),a(&quot;perfload&quot;);var b=a(&quot;UserIdentifier&quot;);b();var c=a(&quot;aiPageCookie&quot;);c(),a(&quot;wrap-fetch&quot;)},{UserIdentifier:6,aiPageCookie:7,errorload:8,loader:41,perfload:9,&quot;wrap-fetch&quot;:33,xhrload:10}],33:[function(a,b){function c(a,b,c){var d=a[b];&quot;function&quot;==typeof d&amp;&amp;(a[b]=function(){var a=d.apply(this,arguments);return f.emit(c+&quot;start&quot;,arguments,a),a.then(function(b){return f.emit(c+&quot;end&quot;,[null,b],a),b},function(b){throw f.emit(c+&quot;end&quot;,[b],a),b})})}function d(a,b){var c=g(b),d=a.params;d.url=c.url,d.url.length&gt;500&amp;&amp;(d.url=d.url.slice(0,500)),a.sameOrigin=c.sameOrigin}function e(){return(new Date).getTime()}{var f=(a(&quot;lodash._slice&quot;),a(&quot;ee&quot;).create()),g=a(&quot;prase-url-original&quot;),h=a(&quot;gos&quot;),i=a(&quot;handle&quot;),j=a(&quot;map-own&quot;);a(&quot;wrap-function&quot;)(f)}b.exports=f;var k=window,l=&quot;fetch-&quot;,m=l+&quot;body-&quot;,n=[&quot;arrayBuffer&quot;,&quot;blob&quot;,&quot;json&quot;,&quot;text&quot;,&quot;formData&quot;],o=k.Request,p=k.Response,q=k.fetch,r=&quot;prototype&quot;;o&amp;&amp;p&amp;&amp;q&amp;&amp;(j(n,function(a,b){c(o[r],b,m),c(p[r],b,m)}),c(k,&quot;fetch&quot;,l),f.on(l+&quot;end&quot;,function(a,b){var c=this,d={};h(d,&quot;bw@context&quot;,function(){return c}),b?b.clone().arrayBuffer().then(function(a){c.rxSize=a.byteLength,f.emit(l+&quot;done&quot;,[null,b],d)}):f.emit(l+&quot;done&quot;,[a],d)})),f.on(&quot;fetch-start&quot;,function(a,b){var c,f;this.totalCbs=0,this.called=0,this.cbTime=0,this.ended=!1,this.xhrGuids={},this.startTime=e(),this.metrics={},this.metrics.txSize=0,&quot;object&quot;==typeof a?(c=a.url,f=a.method):(c=a,void 0==b&amp;&amp;(b={}),f=b.method||||&quot;get&quot;,b&amp;&amp;b.body&amp;&amp;&quot;string&quot;==typeof b.body&amp;&amp;(this.metrics.txSize=b.body.length)),this.params={method:f},d(this,c)}),f.on(&quot;fetch-end&quot;,function(){this.endTime=e()}),f.on(&quot;fetch-done&quot;,function(a,b){a||||(this.ended=!0,this.metrics.duration=this.endTime-this.startTime,this.metrics.rxSize=this.rxSize,this.params.status=b.status,i(&quot;xhr&quot;,[this.params,this.metrics,this.startTime,this.creatType]))})},{ee:38,gos:39,handle:40,&quot;lodash._slice&quot;:43,&quot;map-own&quot;:44,&quot;prase-url-original&quot;:46,&quot;wrap-function&quot;:47}],10:[function(a){function b(a){if(&quot;string&quot;==typeof a&amp;&amp;a.length)return a.length;if(&quot;object&quot;!=typeof a)return void 0;if(&quot;undefined&quot;!=typeof ArrayBuffer&amp;&amp;a instanceof ArrayBuffer&amp;&amp;a.byteLength)return a.byteLength;if(&quot;undefined&quot;!=typeof Blob&amp;&amp;a instanceof Blob&amp;&amp;a.size)return a.size;if(&quot;undefined&quot;!=typeof FormData&amp;&amp;a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a,b){return b}function d(a){var b,c=a.split(&quot;||||&quot;),d=0,e=c.length,f={};for(d;e&gt;d;d++)b=c[d].split(&quot;:&quot;),f[b[0]]=b[1];return f}function e(a){a.send=q.wrapOld(a.send,&quot;send-xhr-&quot;,c),a.onreadystatechange=q.wrapOld(a.onreadystatechange,&quot;iexhr-onreadystatechange-&quot;,c),a.onerror=q.wrapOld(a.onerror,&quot;iexhr-onerror-&quot;,c)}function f(a){var c=this.params,e=this.metrics;if(!this.ended){if(this.ended=!0,a.removeEventListener)for(var f=0;o&gt;f;f++)a.removeEventListener(n[f],this.listener,!1);if(!c.aborted){if(e.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g,h=a.responseType,i=&quot;arraybuffer&quot;===h||||&quot;blob&quot;===h||||&quot;json&quot;===h?a.response:a.responseText,l=b(i);l&amp;&amp;(e.rxSize=l),this.sameOrigin&amp;&amp;(g=a.getResponseHeader(&quot;ONEAPM_AI&quot;)),g&amp;&amp;(c.cat=d(g),e.webTime=c.cat.applicationTime,e.queueTime=c.cat.queueTime,delete c.cat.queueTime,delete c.cat.applicationTime)}else c.status=0;e.cbTime=this.cbTime,c.url=j(c.url),c&amp;&amp;c.url&amp;&amp;c.url.indexOf(&quot;beacon/resources&quot;)&lt;0&amp;&amp;k(&quot;xhr&quot;,[c,e,this.startTime,this.creatType])}}}function g(a,b){var c=l(b),d=a.params;d.url=c.url,d.url.length&gt;500&amp;&amp;(d.url=d.url.slice(0,500)),a.sameOrigin=c.sameOrigin}var h=window,i=(h.performance,window.XMLHttpRequest);if(i&amp;&amp;i.prototype&amp;&amp;!/CriOS/.test(navigator.userAgent)){a(&quot;loader&quot;).features.xhr=!0;var j=a(&quot;decodeurlfn&quot;),k=a(&quot;handle&quot;),l=a(&quot;prase-url-original&quot;),m=a(&quot;ee&quot;),n=[&quot;load&quot;,&quot;error&quot;,&quot;abort&quot;,&quot;timeout&quot;],o=n.length,p=a(&quot;loader_id&quot;),q=a(&quot;wrap-function&quot;)(m);a(&quot;wrap-events&quot;),a(&quot;wrap-xhr&quot;),m.on(&quot;new-xhr&quot;,function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=f,this.ended=!1,this.xhrGuids={}}),m.on(&quot;open-xhr-start&quot;,function(a){this.params={method:a[0]},g(this,a[1]),this.metrics={}}),m.on(&quot;open-xhr-end&quot;,function(a,b){this.sameOrigin&amp;&amp;b.setRequestHeader(&quot;isAjax&quot;,&quot;true&quot;),b.__oldie&amp;&amp;e(b)}),m.on(&quot;send-xhr-start&quot;,function(a,c){var d=this.metrics,e=a[0],f=this;if(d&amp;&amp;e){var g=b(e);g&amp;&amp;(d.txSize=g)}if(this.startTime=(new Date).getTime(),this.listener=function(a){try{&quot;abort&quot;===a.type&amp;&amp;(f.params.aborted=!0),(&quot;load&quot;!==a.type||||f.called===f.totalCbs&amp;&amp;(f.onloadCalled||||&quot;function&quot;!=typeof c.onload))&amp;&amp;f.end&amp;&amp;f.end(c)}catch(b){try{m.emit(&quot;internal-error&quot;,[b])}catch(d){}}},c.addEventListener)for(var h=0;o&gt;h;h++)c.addEventListener(n[h],this.listener,!1)}),m.on(&quot;iexhr-onreadystatechange-start&quot;,function(a,b){if(1==b.readyState){var d=b.onreadystatechange;setTimeout(function(){b.onreadystatechange!==d&amp;&amp;(b.onreadystatechange=q.wrapOld(b.onreadystatechange,&quot;iexhr-onreadystatechange-&quot;,c))},0)}4==b.readyState&amp;&amp;(this.xhrCbStart=(new Date).getTime())}),m.on(&quot;iexhr-onreadystatechange-end&quot;,function(a,b){var c=this;this.xhrCbStart&amp;&amp;m.emit(&quot;xhr-cb-time&quot;,[(new Date).getTime()-this.xhrCbStart,this.onload,b],b),4==b.readyState&amp;&amp;c.end(b)}),m.on(&quot;xhr-cb-time&quot;,function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||||!this.onloadCalled&amp;&amp;&quot;function&quot;==typeof c.onload||||this.end(c)}),m.on(&quot;xhr-load-added&quot;,function(a,b){var c=&quot;&quot;+p(a)+!!b;this.xhrGuids&amp;&amp;!this.xhrGuids[c]&amp;&amp;(this.xhrGuids[c]=!0,this.totalCbs+=1)}),m.on(&quot;xhr-load-removed&quot;,function(a,b){var c=&quot;&quot;+p(a)+!!b;this.xhrGuids&amp;&amp;this.xhrGuids[c]&amp;&amp;(delete this.xhrGuids[c],this.totalCbs-=1)}),m.on(&quot;addEventListener-end&quot;,function(a,b){b instanceof XMLHttpRequest&amp;&amp;&quot;load&quot;===a[0]&amp;&amp;m.emit(&quot;xhr-load-added&quot;,[a[1],a[2]],b)}),m.on(&quot;removeEventListener-end&quot;,function(a,b){b instanceof XMLHttpRequest&amp;&amp;&quot;load&quot;===a[0]&amp;&amp;m.emit(&quot;xhr-load-removed&quot;,[a[1],a[2]],b)}),m.on(&quot;fn-start&quot;,function(a,b,c){b instanceof XMLHttpRequest&amp;&amp;(&quot;onload&quot;===c&amp;&amp;(this.onload=!0),(&quot;load&quot;===(a[0]&amp;&amp;a[0].type)||||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),m.on(&quot;fn-end&quot;,function(a,b){this.xhrCbStart&amp;&amp;m.emit(&quot;xhr-cb-time&quot;,[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{decodeurlfn:37,ee:38,handle:40,loader:41,loader_id:42,&quot;prase-url-original&quot;:46,&quot;wrap-events&quot;:32,&quot;wrap-function&quot;:47,&quot;wrap-xhr&quot;:35}],46:[function(a,b){b.exports=function(a){var b=document.createElement(&quot;a&quot;),c=window.location,d={};b.href=a,d.url=b.href;var e=b.href.indexOf(&quot;https://&quot;),f=b.href.indexOf(&quot;http://&quot;),g=window.location;return 0&gt;e&amp;&amp;0&gt;f&amp;&amp;(&quot;/&quot;!==d.url.charAt(0)&amp;&amp;(d.url=&quot;/&quot;+d.url),d.url=g.protocol+&quot;//&quot;+g.hostname+&quot;:&quot;+g.port+d.url),d.sameOrigin=!b.hostname||||b.hostname===document.domain&amp;&amp;b.port===c.port&amp;&amp;b.protocol===c.protocol,d}},{}],42:[function(a,b){function c(a){var b=typeof a;return!a||||&quot;object&quot;!==b&amp;&amp;&quot;function&quot;!==b?-1:a===window?0:f(a,e,function(){return d++})}var d=1,e=&quot;bw@id&quot;,f=a(&quot;gos&quot;);b.exports=c},{gos:39}],9:[function(a){var b=window.performance;if(b&amp;&amp;b.timing&amp;&amp;b.getEntriesByType){var c=a(&quot;ee&quot;),d=(a(&quot;handle&quot;),a(&quot;wrap-timer&quot;),a(&quot;loader&quot;));d.features.stn=!0,c.on(&quot;fn-start&quot;,function(a){var b=a[0];b instanceof Event&amp;&amp;(this.bstStart=Date.now())}),c.on(&quot;fn-end&quot;,function(){})}},{ee:38,handle:40,loader:41,&quot;wrap-timer&quot;:34}],8:[function(a){function b(a,b,d,g,i){try{j?j-=1:e(&quot;err&quot;,[i||||new c(a,b,d)])}catch(k){try{e(&quot;ierr&quot;,[k,(new Date).getTime(),!0])}catch(l){}}return&quot;function&quot;==typeof h?h.apply(this,f(arguments)):!1}function c(a,b,c){this.message=a||||&quot;Uncaught error with no additional information&quot;,this.sourceURL=b,this.line=c}function d(a){e(&quot;err&quot;,[a,(new Date).getTime()])}var e=a(&quot;handle&quot;),f=a(&quot;lodash._slice&quot;),g=a(&quot;ee&quot;),h=window.onerror,i=!1,j=0;a(&quot;loader&quot;).features.err=!0,window.onerror=b,window.BWEUM.noticeError=d;var k=window.XMLHttpRequest;try{throw new Error}catch(l){&quot;stack&quot;in l&amp;&amp;(a(&quot;wrap-timer&quot;),&quot;addEventListener&quot;in window&amp;&amp;a(&quot;wrap-events&quot;),k&amp;&amp;k.prototype&amp;&amp;k.prototype.addEventListener&amp;&amp;a(&quot;wrap-xhr&quot;),i=!0)}g.on(&quot;fn-start&quot;,function(){i&amp;&amp;(j+=1)}),g.on(&quot;fn-err&quot;,function(a,b,c){i&amp;&amp;(this.thrown=!0,d(c))}),g.on(&quot;fn-end&quot;,function(){i&amp;&amp;!this.thrown&amp;&amp;j&gt;0&amp;&amp;(j-=1)}),g.on(&quot;internal-error&quot;,function(a){e(&quot;ierr&quot;,[a,(new Date).getTime(),!0])})},{ee:38,handle:40,loader:41,&quot;lodash._slice&quot;:43,&quot;wrap-events&quot;:32,&quot;wrap-timer&quot;:34,&quot;wrap-xhr&quot;:35}],35:[function(a,b){function c(){j.inPlace(this,m,&quot;fn-&quot;)}function d(a,b){j.inPlace(b,[&quot;onreadystatechange&quot;],&quot;fn-&quot;)}function e(a){a.open=j.wrapOld(a.open,&quot;open-xhr-&quot;,f)}function f(a,b){return b}var g=a(&quot;ee&quot;).create(),h=a(&quot;wrap-events&quot;),i=a(&quot;wrap-function&quot;),j=i(g),k=i(h),l=window.XMLHttpRequest,m=[&quot;onload&quot;,&quot;onerror&quot;,&quot;onabort&quot;,&quot;onloadstart&quot;,&quot;onloadend&quot;,&quot;onprogress&quot;,&quot;ontimeout&quot;];b.exports=g,window._ApmXMLHttpRequest=window.XMLHttpRequest,window.XMLHttpRequest=function(a){var b=new l(a);try{g.emit(&quot;new-xhr&quot;,[],b),l.prototype.addEventListener?(k.inPlace(b,[&quot;addEventListener&quot;,&quot;removeEventListener&quot;],&quot;-&quot;,function(a,b){return b}),b.addEventListener(&quot;readystatechange&quot;,c,!1)):(b.__oldie=!0,e(b))}catch(d){try{g.emit(&quot;internal-error&quot;,[d])}catch(f){}}return b},window.XMLHttpRequest.prototype=l.prototype,j.inPlace(XMLHttpRequest.prototype,[&quot;open&quot;,&quot;send&quot;],&quot;-xhr-&quot;,f),g.on(&quot;send-xhr-start&quot;,d),g.on(&quot;open-xhr-start&quot;,d)},{ee:38,&quot;wrap-events&quot;:32,&quot;wrap-function&quot;:47}],34:[function(a,b){function c(a,b,c){var d=a[0];&quot;string&quot;==typeof d&amp;&amp;(d=new Function(d)),a[0]=e(d,&quot;fn-&quot;,null,c)}var d=(a(&quot;lodash._slice&quot;),a(&quot;ee&quot;).create()),e=a(&quot;wrap-function&quot;)(d);b.exports=d,e.inPlace(window,[&quot;setTimeout&quot;,&quot;setInterval&quot;,&quot;setImmediate&quot;],&quot;setTimer-&quot;),d.on(&quot;setTimer-start&quot;,c)},{ee:38,&quot;lodash._slice&quot;:43,&quot;wrap-function&quot;:47}],32:[function(a,b){function c(a){f.inPlace(a,[&quot;addEventListener&quot;,&quot;removeEventListener&quot;],&quot;-&quot;,d)}function d(a){return a[1]}var e=(a(&quot;lodash._slice&quot;),a(&quot;ee&quot;).create()),f=a(&quot;wrap-function&quot;)(e),g=a(&quot;gos&quot;);if(b.exports=e,c(window),&quot;getPrototypeOf&quot;in Object){for(var h=document;h&amp;&amp;!h.hasOwnProperty(&quot;addEventListener&quot;);)h=Object.getPrototypeOf(h);h&amp;&amp;c(h);for(var i=XMLHttpRequest.prototype;i&amp;&amp;!i.hasOwnProperty(&quot;addEventListener&quot;);)i=Object.getPrototypeOf(i);i&amp;&amp;c(i)}else Object.prototype.hasOwnProperty.call(XMLHttpRequest,&quot;addEventListener&quot;)&amp;&amp;c(XMLHttpRequest.prototype);e.on(&quot;addEventListener-start&quot;,function(a){if(a[1]){var b=a[1];&quot;function&quot;==typeof b?this.wrapped=a[1]=g(b,&quot;bw@wrapped&quot;,function(){return f(b,&quot;fn-&quot;,null,b.name||||&quot;anonymous&quot;)}):&quot;function&quot;==typeof b.handleEvent&amp;&amp;f.inPlace(b,[&quot;handleEvent&quot;],&quot;fn-&quot;)}}),e.on(&quot;removeEventListener-start&quot;,function(a){var b=this.wrapped;b&amp;&amp;(a[1]=b)})},{ee:38,gos:39,&quot;lodash._slice&quot;:43,&quot;wrap-function&quot;:47}],47:[function(a,b){function c(a){return!(a&amp;&amp;&quot;function&quot;==typeof a&amp;&amp;a.apply&amp;&amp;!a[f])}var d=a(&quot;ee&quot;),e=a(&quot;lodash._slice&quot;),f=&quot;bw@wrapper&quot;,g=Object.prototype.hasOwnProperty;b.exports=function(a){function b(a,b,d,g,i){function j(){var c=this;return h(a,b,c,e(arguments),d,g,i)}if(c(a))return a;b||||(b=&quot;&quot;);try{j[f]=!0}catch(k){}return l(a,j),j}function h(a,b,c,d,e,f){var d,c,g,h,i;try{g=e&amp;&amp;e(d,c)||||{}}catch(j){m([j,&quot;&quot;,[d,c,f],g])}i=a.name||||&quot;&quot;,k(b+&quot;start&quot;,[d,c,f,i],g);try{return h=a.apply(c,d)}catch(l){var n=window.console;throw void 0!=n&amp;&amp;n.error&amp;&amp;n.log&amp;&amp;void 0!=l.stack&amp;&amp;(n.log(&quot;OneAPM catch error&quot;),n.error(l.stack)),k(b+&quot;err&quot;,[d,c,l],g),l}finally{k(b+&quot;end&quot;,[d,c,h,i],g)}}function i(a,b,c){var a=a||||function(){},b=b||||&quot;-&quot;;return function(){var d=this;return h(a,b,d,e(arguments),c)}}function j(a,d,e,f){e||||(e=&quot;&quot;);var g,h,i,j=&quot;-&quot;===e.charAt(0);for(i=0;i&lt;d.length;i++)h=d[i],g=a[h],c(g)||||(a[h]=b(g,j?h+e:e,f,h,a))}function k(b,c,d){try{a.emit(b,c,d)}catch(e){m([e,b,c,d])}}function l(a,b){if(Object.defineProperty&amp;&amp;Object.keys)try{var c=Object.keys(a);return c.forEach(function(c){Object.defineProperty(b,c,{get:function(){return a[c]},set:function(b){return a[c]=b,b}})}),b}catch(d){m([d])}for(var e in a)g.call(a,e)&amp;&amp;(b[e]=a[e]);return b}function m(b){try{a.emit(&quot;internal-error&quot;,b)}catch(c){}}return a||||(a=d),b.inPlace=j,b.flag=f,b.wrapOld=i,b}},{ee:38,&quot;lodash._slice&quot;:43}],7:[function(a,b){{var c=a(&quot;cookie&quot;);a(&quot;loader&quot;)}b.exports=function(){var a,b=c(&quot;ONEAPM_AI&quot;),d=[],e=[],f=0,g={applicationID:&quot;&quot;,applicationTime:&quot;&quot;,queueTime:&quot;&quot;,licenseKey:&quot;&quot;,transactionName:&quot;&quot;,ttGuid:&quot;&quot;,tierName:&quot;&quot;};if(null!=b)for(d=b.split(&quot;||||&quot;),a=d.length,f;a&gt;f;f++)if(void 0!=d[f])switch(e=d[f].split(&quot;:&quot;),e[0]){case&quot;applicationID&quot;:g.applicationID=e[1];break;case&quot;applicationTime&quot;:g.applicationTime=e[1];break;case&quot;queueTime&quot;:g.queueTime=e[1];break;case&quot;licenseKey&quot;:g.licenseKey=e[1];break;case&quot;transactionName&quot;:g.transactionName=e[1];break;case&quot;ttGuid&quot;:g.ttGuid=e[1];break;case&quot;tierName&quot;:g.tierName=e[1]}window.BWEUM.aicookie=g}},{cookie:36,loader:41}],6:[function(a,b){var c=a(&quot;cookie&quot;);b.exports=function(){if(&quot;&quot;!=window.apmBICookieUser){var a=c(window.apmBICookieUser);null!=a&amp;&amp;(window.apmBiUser=a,window.apmBiUser+=&quot;&quot;)}}},{cookie:36}]},{},[1]),window.BWEUM.require=a}(); &lt;/script&gt;            &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/vassets/images/ab6cf9a60362c74acf9c252fa35ea7cc-favicon.png&quot;&gt;     &lt;link rel=&quot;stylesheet&quot; href=&quot;/vassets/stylesheets/home_v3.0.1/e3e77f0d31cee16a4dcca5c4d28a89e9-common.css&quot;&gt;     &lt;link rel=&quot;stylesheet&quot; href=&quot;/vassets/stylesheets/home_v3.0.1/8b8a105ac72d84e5dfb8fafff75884ce-page.css&quot;&gt;                        &lt;link rel=&quot;stylesheet&quot; href=&quot;/vassets/stylesheets/home_v3/25244ffa842c27dc91add174b09c2c83-login.css&quot;&gt;                &lt;!--[if lt IE 9]&gt;       &lt;script type=&quot;text/javascript&quot; src=&quot;/vassets/javascripts/home_v2/eab0ea75a73dce0ff00a5f28320746b9-html5shiv.min.js&quot;&gt;&lt;/script&gt;       &lt;script type=&quot;text/javascript&quot; src=&quot;/vassets/javascripts/home_v2/f5b6c83e2710b0431edcada5a3a465ec-respond.min.js&quot;&gt;&lt;/script&gt;     &lt;![endif]--&gt;     &lt;script type=&quot;text/javascript&quot; src=&quot;/vassets/javascripts/home_v2/ead587eaa3c3c14507e55107a645d747-jquery-1.11.3.min.js&quot;&gt;&lt;/script&gt;     &lt;script type=&quot;text/javascript&quot; src=&quot;/vassets/javascripts/home_v2/3d3e5cdf650ca4493501bf7777ddfad6-bootstrap.js&quot;&gt;&lt;/script&gt;     &lt;title&gt;登录到 GrowingIO 用户行为分析工具&lt;/title&gt;     &lt;meta name=&quot;keywords&quot; content=&quot;数据分析, 数据采集, 用户行为分析, 用户增长&quot;&gt;     &lt;meta name=&quot;description&quot; content=&quot;来自硅谷的新一代数据分析产品，无需埋点即可采集全量、实时用户行为数据，帮助产品经理、市场运营、数据分析师、增长黑客等，提升转化率、优化网站/APP，实现用户增长。&quot;&gt;     &lt;meta name=&quot;author&quot; content=&quot;GrowingIO 团队&quot;&gt;           &lt;!--通用脚本begin--&gt;     &lt;script type=&quot;text/javascript&quot; src=&quot;/vassets/javascripts/home_v3.0.1/1d26c3b450aeaae12beff7ae97813505-common.min.js&quot;&gt;&lt;/script&gt;     &lt;!--通用脚本end--&gt;   &lt;/head&gt;   &lt;body&gt;        &lt;div class=&quot;new-login-box&quot;&gt;     &lt;div class=&quot;new-login login&quot;&gt;         &lt;header class=&quot;clearfix&quot;&gt;           &lt;a class=&quot;logo&quot; href=&quot;http://www.growingio.com&quot;&gt;&lt;img src=&quot;/vassets/images/home_v3/gio-logo.png&quot; alt=&quot;GrowingIO&quot;&gt;&lt;/a&gt;         &lt;/header&gt;                           &lt;section class=&quot;main&quot;&gt;           &lt;form class=&quot;clearfix&quot; action='/login' method=&quot;post&quot;&gt;             &lt;h2&gt;登录到 GrowingIO&lt;/h2&gt;             &lt;div class=&quot;input-set&quot;&gt;               &lt;input type=&quot;text&quot; name=&quot;accountName&quot; placeholder=&quot;请输入您的手机号或邮箱&quot; value='' id=&quot;accountName&quot; /&gt;               &lt;span class=&quot;emessage error-message&quot; style=&quot;margin-top: -23px;float: left;color: #F8472D;&quot; id='emessage-accountName'&gt;&lt;/span&gt;               &lt;input name=&quot;password&quot; type=&quot;password&quot; placeholder=&quot;请输入您的密码&quot;&gt;               &lt;input id=&quot;token&quot; name=&quot;token&quot; type = &quot;hidden&quot;&gt;               &lt;input id=&quot;encrypted&quot; name=&quot;encrypted&quot; type = &quot;hidden&quot;&gt;               &lt;span class=&quot;error-message emessage&quot; style=&quot;margin-top: -23px;float: left;color: #F8472D;&quot; id='emessage-password'&gt;                                &lt;/span&gt;               &lt;button&gt;登录&lt;/button&gt;               &lt;a class=&quot;forget-pwd&quot; href=&quot;/passwords/forgot&quot;&gt;忘记密码&lt;/a&gt;                                  &lt;a class=&quot;signup-btn&quot; href=&quot;/signup&quot;&gt;现在注册&lt;/a&gt;                              &lt;/div&gt;           &lt;/form&gt;         &lt;/section&gt;         &lt;div&gt;&lt;/div&gt;     &lt;/div&gt;     &lt;a target=&quot;_blank&quot; href=&quot;https://www.growingio.com/ebook&quot; class=&quot;new-login-right&quot;&gt;&lt;/a&gt;   &lt;/div&gt;    &lt;script&gt;     (function(){       |d.ajax({         url: &quot;https://blog.growingio.com/website_banner/login&quot;,         method: &quot;GET&quot;,         success: function(data) {           if (data.website_banner.length &gt; 0) {             var bannerContent = data.website_banner[0];             |d(&quot;.new-login-right&quot;).attr(&quot;href&quot;, bannerContent.button_url )             |d(&quot;.new-login-right&quot;).css(&quot;background-image&quot;, &quot;url(&quot;+ bannerContent.image +&quot;)&quot; )           }         }       });     })()   &lt;/script&gt;                          &lt;a href=&quot;https://growingio.kf5.com/hc/request/guest&quot; id=&quot;kf5-support-btn&quot; class=&quot;kf5-support-btn&quot; style=&quot;position: fixed; left: 30%; &#9;border: 2px solid #65697F; bottom: 0px; display: block; padding: 10px 20px; color: #65697F; border-radius: 5px 5px 0 0;&quot; target=&quot;_blank&quot;&gt;     &lt;img src=&quot;/vassets/images/home_v3/query.png&quot; alt=&quot;&quot; style=&quot;width: 20px; margin-right: 5px; vertical-align: -4px;&quot;&gt;     &lt;span&gt;提交问题&lt;/span&gt;   &lt;/a&gt;   &lt;!-- &lt;script src=&quot;//assets.kf5.com/supportbox/main.js&quot; id=&quot;kf5-provide-supportBox&quot; kf5-domain=&quot;growingio.kf5.com&quot;&gt;&lt;/script&gt; --&gt;                           &lt;!--本页脚本begin--&gt;     &lt;script type=&quot;text/javascript&quot; src=&quot;/vassets/javascripts/home_v3.0.1/0a164ef376ede5b8b267119dd4e64310-page.min.js&quot;&gt;&lt;/script&gt;     &lt;!--本页脚本end--&gt;   &lt;/body&gt; &lt;/html&gt;   Server:nginx/1.13.8 Date:Wed, 11 Sep 2019 06:17:52 GMT Content-Type:text/html; charset=UTF-8 Transfer-Encoding:chunked Connection:keep-alive Vary:Accept-Encoding Vary:Origin X-Runtime:2.540632 X-Request-Id:9e4cc7c86be2460d {&quot;splashs&quot;:[],&quot;popupWindows&quot;:[{&quot;id&quot;:403,&quot;state&quot;:&quot;activated&quot;,&quot;name&quot;:&quot;å¼¹çª201904031119&quot;,&quot;content&quot;:&quot;https://statics.growingio.com/pages/20190403/3/1554261622275/1554261622275-popupWindow.html?url_scheme=growing.856a6ce98c31281d&quot;,&quot;priority&quot;:1,&quot;updateAt&quot;:1554261622349,&quot;rule&quot;:{&quot;type&quot;:&quot;system&quot;,&quot;action&quot;:&quot;appOpen&quot;,&quot;endAt&quot;:1932952822274,&quot;startAt&quot;:1175570422274,&quot;triggerPages&quot;:[],&quot;triggerCd&quot;:0,&quot;triggerDelay&quot;:0,&quot;limit&quot;:1,&quot;filters&quot;:{&quot;expr&quot;:&quot;&quot;,&quot;exprs&quot;:[]}}},{&quot;id&quot;:2558,&quot;state&quot;:&quot;activated&quot;,&quot;name&quot;:&quot;æ²¡ä¼ å¾&quot;,&quot;content&quot;:&quot;https://statics.growingio.com/pages/20190823/3/1566528236473/1566528236473-popupWindow.html?url_scheme=growing.856a6ce98c31281d&quot;,&quot;priority&quot;:1,&quot;updateAt&quot;:1566528236540,&quot;rule&quot;:{&quot;type&quot;:&quot;system&quot;,&quot;action&quot;:&quot;appOpen&quot;,&quot;endAt&quot;:4102444800000,&quot;startAt&quot;:946684800000,&quot;triggerPages&quot;:[],&quot;triggerCd&quot;:86400,&quot;triggerDelay&quot;:0,&quot;limit&quot;:1,&quot;filters&quot;:{&quot;expr&quot;:&quot;&quot;,&quot;exprs&quot;:[]}}},{&quot;id&quot;:1865,&quot;state&quot;:&quot;activated&quot;,&quot;name&quot;:&quot;æµè¯å¼¹çª&quot;,&quot;content&quot;:&quot;https://statics.growingio.com/pages/20190718/3/1563419902637/1563419902637-popupWindow.html?url_scheme=growing.856a6ce98c31281d&quot;,&quot;priority&quot;:1,&quot;updateAt&quot;:1563419902686,&quot;rule&quot;:{&quot;type&quot;:&quot;system&quot;,&quot;action&quot;:&quot;appOpen&quot;,&quot;endAt&quot;:4102416000000,&quot;startAt&quot;:946656000000,&quot;triggerPages&quot;:[],&quot;triggerCd&quot;:1800,&quot;triggerDelay&quot;:0,&quot;limit&quot;:1,&quot;filters&quot;:{&quot;expr&quot;:&quot;&quot;,&quot;exprs&quot;:[]}}},{&quot;id&quot;:2336,&quot;state&quot;:&quot;activated&quot;,&quot;name&quot;:&quot;å¼¹çª20190813134702&quot;,&quot;content&quot;:&quot;https://statics.growingio.com/pages/20190813/3/1565675638776/1565675638776-popupWindow.html?url_scheme=growing.856a6ce98c31281d&quot;,&quot;priority&quot;:1,&quot;updateAt&quot;:1565675638871,&quot;rule&quot;:{&quot;type&quot;:&quot;custom&quot;,&quot;action&quot;:&quot;AdBanner&quot;,&quot;endAt&quot;:4102416000000,&quot;startAt&quot;:946656000000,&quot;triggerPages&quot;:[],&quot;triggerCd&quot;:86400,&quot;triggerDelay&quot;:0,&quot;limit&quot;:1,&quot;filters&quot;:{&quot;expr&quot;:&quot;a &amp;&amp; b&quot;,&quot;exprs&quot;:[{&quot;symbol&quot;:&quot;a&quot;,&quot;op&quot;:&quot;=&quot;,&quot;type&quot;:&quot;visitorFilter&quot;,&quot;value&quot;:&quot;12&quot;,&quot;key&quot;:&quot;popWindowSoloClick&quot;},{&quot;symbol&quot;:&quot;b&quot;,&quot;op&quot;:&quot;=&quot;,&quot;type&quot;:&quot;eventFilter&quot;,&quot;value&quot;:&quot;ä¸º2eweq&quot;,&quot;key&quot;:&quot;adid&quot;}]}}}],&quot;idMappings&quot;:{&quot;bu&quot;:1772721,&quot;bcs&quot;:0}} " />
+      </map>
+    </option>
+  </component>
+</project>

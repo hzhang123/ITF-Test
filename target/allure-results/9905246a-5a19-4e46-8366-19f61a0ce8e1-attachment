@@ -1,0 +1,17 @@
+
+--------Request URL--------:
+http://k8s-qa-gta.growingio.com/_private/projects/z98jGyZP/marketing/gtouch/campaigns
+
+--------Request Header--------:
+[Content-Type: application/json]
+
+--------Request Body--------:
+{
+    "name": "ITF-创建消息组934d2716-17e6-4a72-8faa-bdcdd069ed50",
+    "type": "banner",
+    "productIds": ["xogdzD9m"],
+    "state": "draft"
+}
+
+--------Cookies--------:
+[]

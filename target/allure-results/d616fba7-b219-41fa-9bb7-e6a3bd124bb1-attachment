@@ -1,0 +1,17 @@
+
+--------Request URL--------:
+http://k8s-qa-gta.growingio.com/_private/projects/z98jGyZP/marketing/gtouch/campaigns
+
+--------Request Header--------:
+[Content-Type: application/json]
+
+--------Request Body--------:
+{
+    "name": "ITF-创建消息组194e463f-29d3-4a31-8c52-5de777510d71",
+    "type": "banner",
+    "productIds": ["xogdzD9m"],
+    "state": "draft"
+}
+
+--------Cookies--------:
+[[version: 0][name: gioat][value: eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImFpZCI6Im5vcUI4NXI5Iiwic2VjIjoiMmMxYzU3MWFhNTJhZTA1OTNkYzZiNjFjZmY1YTc3NmYwMzQ0Y2RjODIyM2YxYmMyZDdlMzU5YzdmZWEyZTY4YWY3MjIxNTYyZWNjOWM1MjcyMzZiODdjODNhYTgyZWNlNGUxNzlmOTA4YzAzODQ0OTliZWVhOTJiNTg4ZWZlNjAifSwiZXhwIjoxNTcwNDM1MTYxLCJuYmYiOjE1Njk4MzAzNjEsImlhdCI6MTU2OTgzMDM2MX0.ti_G4Vd5ls07fWDpr4rdimH-iKcrnkcf_uNf-Fx5Ufc][domain: k8s-qa-accounts.growingio.com][path: /][expiry: Mon Oct 07 15:59:21 CST 2019], [version: 0][name: user_id][value: noqB85r9][domain: growingio.com][path: /][expiry: Mon Oct 07 15:59:20 CST 2019], [version: 0][name: user_session][value: 156c8478-c780-4c6d-b2a5-4043ce3aa65c][domain: growingio.com][path: /][expiry: Mon Oct 07 15:59:20 CST 2019]]
